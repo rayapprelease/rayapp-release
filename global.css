@@ -123,7 +123,6 @@ hr {
 }
 
 .button--primary:hover {
-  text-shadow: 0px 1px 1px var(--accent-color-dark);
   color: white;
   transform: translate3D(0, -3px, 0);
 }
