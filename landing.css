@@ -2,13 +2,18 @@
 .logo {
   background: url("assets/images/favicon.png") no-repeat;
   background-size: contain;
-  margin: 1rem 0 0 1rem;
+  margin: 0.6rem 0 0 0.6rem;
   opacity: 0.6;
   width: 32px;
 }
 
 nav {
-  background-color: var(--bg-color);
+  background-color: #f8f8fa69;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  backdrop-filter: blur(6px);
 }
 
 /* hero section */
@@ -16,7 +21,7 @@ nav {
   text-align: center;
   background-color: var(--bg-color);
   padding: 2rem 0 2rem 0;
-  background-image: url('./assets/images/banner.jpg');
+  background-image: url("./assets/images/banner.jpg");
   background-size: cover;
   background-position: center;
 }
