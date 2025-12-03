@@ -77,14 +77,12 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
-  padding: 0.5rem;
 }
 
 .feature__item {
   background: var(--card-bg);
   padding: 1.5rem;
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid var(--light-gray-color);
   text-align: center;
@@ -122,8 +120,8 @@
 }
 
 .home__logos__container img {
-  height: 50px;
-  width: auto;
+  height: 80px;
+  width: 80px;
   filter: grayscale(100%);
   opacity: 0.6;
   transition: all 0.3s ease;
@@ -225,10 +223,6 @@
   .home__logos__container {
     gap: 2rem;
   }
-
-  .home__logos__container img {
-    height: 40px;
-  }
 }
 
 /* Tools Section */
@@ -236,7 +230,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
-  padding: 1rem;
+  padding: 0rem;
 }
 
 .tools__item {
